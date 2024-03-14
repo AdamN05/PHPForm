@@ -1,0 +1,68 @@
+body {
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: lightgray;
+    border: none;
+    border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+    background-color: grey;
+    color: white;
+}
+
+.submitted-content {
+    margin-top: 20px;
+}
+
+.file{
+    display: flex;
+    flex-direction: column;
+    padding-left: 65px;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+input::file-selector-button {
+    background-color: lightgrey;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+input::file-selector-button:hover {
+    background-color: grey;
+    color: white;
+}
